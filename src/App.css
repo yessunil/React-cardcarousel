@@ -1,68 +1,58 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff6ed;
+  }
+  
+  .app {
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
 
-.app {
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background-color: #f0f0f0;
-}
-.card-container {
-  width: 95%;
-  display: flex;
-  align-items: center;
-  overflow-x: hidden;
-  height: 88vh;
-  padding-left: 40px;
-
-}
-
-.arrow-left{
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  z-index: 1;
-}
-.arrow-right {
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.arrow-left {
-  left: 410px;
-}
-.arrow-left:hover{
-  background-color: #7B1FA2;
-  padding: 10px;
-  border-radius: 100px;
-}
-
-.arrow-right {
-  right: 435px;
-}
-
-.arrow-right:hover{
-  background-color: #7B1FA2;
-  padding: 10px;
-  border-radius: 100px;
-}
-
-
-.disabled {
-  pointer-events: none;
-}
+  }
+  .card-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    /* height: 70vh; */
+    padding-left: 40px;
+    position: relative;  
+  }
+  
+  .arrow-left{
+    position: fixed;
+    top: 45%;
+    left:8%;
+    font-size: 24px;
+    background-color: #fff;
+    border-radius: 20%;
+    border: 1px solid #000;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .arrow-right {
+    position: fixed;
+    top: 45%;
+    right:7%; 
+    font-size: 24px;
+    background-color: #fff;
+    border-radius: 20%;
+    border: 1px solid #000;
+    cursor: pointer;
+    z-index: 1;
+  }  
+  .arrow-left:hover{
+    background-color: #fff6ed;
+  } 
+ .arrow-right:hover{
+    background-color: #fff6ed;
+  }  
+  .disabled {
+    pointer-events: none;
+  }  
+  
+  

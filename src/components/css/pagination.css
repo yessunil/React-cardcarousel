@@ -3,11 +3,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    height: 6vh;
+    height: 6vh; 
   }
   .page-button{
     margin-right: 15px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    color: #220505;
   }
   
   .box{
@@ -17,7 +22,6 @@
   .box-mid{
     margin-right: 16px;
     padding: 2px;
-    border: 1px solid black;
-    border-radius: 3px;
-  
+    border: 1px solid rgb(189, 188, 188);
+    border-radius: 3px;  
   }

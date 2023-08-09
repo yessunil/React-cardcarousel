@@ -1,50 +1,75 @@
+header{
+  width: 100%;
+  height: 90px;
+  padding-top: 40px;
+  background-color: #fff6ed;
+
+}
 .navbar {
-    height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 5px;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 5px;  
   }
   
 .createcard{
   font-size: 20px;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
-  background-color: white;
-  margin-right: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 30px;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .copycard{
-  font-size: 16px;
-  width: 30px;
-  height: 30px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
-  background-color: white;
-  margin-right: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 30px;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .deletecard{
-  font-size: 16px;
-  width: 30px;
-  height: 30px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
-  background-color: white;
-  margin-right: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 30px;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.deletecard svg {
+  fill: #000;
 }
 .moreoptions{
-  font-size: 16px;
-  width: 30px;
-  height: 30px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
-  background-color: white;
-  margin-right: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #btn:hover{
-  background-color: #7B1FA2;
-  padding: 5px;
-  border-radius: 100px;
+  border-radius: 50%;
+  background-color: #ebb2c0;
   font-size: 22px;
+  color: #fff;
 }

@@ -49,16 +49,18 @@ const Card = ({ card, isActive }) => {
   };
 
   return (
-    <div className={`card ${isActive ? "active" : "disabled"}`} ref={cardRef}>
-      <div
-        className={`card-content ${isEditing ? "edit-mode" : ""}`}
-        onClick={handleCardClick}
-        ref={cardContentRef}
-      >
-        <div className="heading">{isEditing ? <input type="text" name="heading" className="heading" value={editedCard.heading} onChange={handleInputChange} /> : editedCard.heading}</div>
-        <div className="sub-heading">{isEditing ? <input type="text" name="subHeading" className="sub-heading" value={editedCard.subHeading} onChange={handleInputChange} /> : card.subHeading}</div>
-        <div className="para">{isEditing ? <textarea name="para" value={editedCard.para} className="para" onChange={handleInputChange} /> : card.para}</div>
+    <div className="col-md-12">
+      <div className={`card ${isActive ? "active" : "disabled"}`} ref={cardRef}>
+        <div
+          className={`card-content ${isEditing ? "edit-mode" : ""}`}
+          onClick={handleCardClick}
+          ref={cardContentRef}
+        >
+          <div className="heading">{isEditing ? <input type="text" name="heading" className="heading" value={editedCard.heading} onChange={handleInputChange} /> : editedCard.heading}</div>
+          <div className="sub-heading">{isEditing ? <input type="text" name="subHeading" className="sub-heading" value={editedCard.subHeading} onChange={handleInputChange} /> : card.subHeading}</div>
+          <div className="para">{isEditing ? <textarea name="para" value={editedCard.para} className="para" onChange={handleInputChange} /> : card.para}</div>
 
+        </div>
       </div>
     </div>
   );
